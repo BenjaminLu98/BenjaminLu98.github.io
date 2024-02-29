@@ -935,6 +935,10 @@ body > footer .copyrights {
   margin-bottom: 10px;
 }
 
+.start-page-content .research-statement .block-title h3 {
+    margin-bottom: 10px;
+}
+
 .start-page-content .page-content .download-resume {
   margin-top: 15px;
 }
