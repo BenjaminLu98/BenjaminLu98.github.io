@@ -51,6 +51,9 @@
             <a class="pt-trigger" href="#home" data-animation="62">Home</a>
             <!-- href value = data-id without # of .pt-page. -->
           </li>
+            <li>
+                <a class="pt-trigger" href="#publications" data-animation="62">Publications</a>
+            </li>
           <li>
             <a class="pt-trigger" href="#academia" data-animation="62">Academia</a>
           </li>
@@ -168,14 +171,33 @@
                 </div>
             </section>
             <!-- End of Home Subpage -->
-            <section class="pt-page" data-id="home">
 
-            </section>
             <!-- Publications Subpage -->
-                <div class="list-group-item">
-                    <a href="files/junbiaolu_publications.pdf" class="btn btn-secondary">Publications PDF</a>
+            <section class="pt-page" data-id="publications">
+                <div class="section-inner custom-page-content">
+                    <div class="page-header color-1">
+                        <h2>Publications</h2>
+                    </div>
+                    <div class="page-content">
+                        <div class="block">
+                            <div class="block-title">
+                                <h3>Journal</h3>
+                            </div>
+                            <div id="publications-journal" class="timeline publications-list"></div>
+                            <p id="publications-journal-empty" style="display:none;">No journal publications found yet.</p>
+                        </div>
+                        <div class="block">
+                            <div class="block-title">
+                                <h3>Conference</h3>
+                            </div>
+                            <div id="publications-conference" class="timeline publications-list"></div>
+                            <p id="publications-conference-empty" style="display:none;">No conference publications found yet.</p>
+                        </div>
+                    </div>
                 </div>
+            </section>
             <!-- End of Publications Subpage -->
+
             <!-- Resume Subpage -->
             <section class="pt-page" data-id="academia">
                 <div class="section-inner custom-page-content">
@@ -404,6 +426,7 @@
                 </div>
             </section>
             <!-- End of Resume Subpage -->
+
             <!-- Portfolio Subpage -->
             <section class="pt-page" data-id="portfolio">
                 <div class="section-inner custom-page-content">
@@ -553,6 +576,7 @@
 <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>-->
 <!--<script type="text/javascript" src="js/jquery.googlemap.js"></script>-->
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/publications.js"></script>
 <!--<link rel="stylesheet" type="text/css" href="assets/lib/css/video-js.css">-->
 <!--<script src="assets/lib/js/jquery.js"></script>-->
 <!--<script src="assets/lib/js/movive/video.js"></script>-->
